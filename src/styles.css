@@ -18,3 +18,11 @@
   /* section */
   --light-sage: #d4dfdb;
 }
+
+#main-section {
+  background-color: var(--peach);
+}
+
+#nav-menu{
+background-color: var(--navy-blue)
+}
