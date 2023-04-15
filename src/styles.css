@@ -36,4 +36,9 @@ background-color: var(--navy-blue);
   color: #ffffffe7;
 }
 
- 
+#title-card{
+  background-color: transparent;
+  border:none;
+  color:black;
+  
+}
