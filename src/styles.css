@@ -21,8 +21,19 @@
 
 #main-section {
   background-color: var(--peach);
+  max-height:100%;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 #nav-menu{
-background-color: var(--navy-blue)
+background-color: var(--navy-blue);
+
+
 }
+
+#nav-brand{
+  color: #ffffffe7;
+}
+
+ 
