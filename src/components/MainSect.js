@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import {Container, Row , Col } from 'react-bootstrap';
+import {Container, Row , Col, Image } from 'react-bootstrap';
 
 const MainSect = () => {
   return (
@@ -20,8 +20,12 @@ const MainSect = () => {
             </Card>
           </Col>
           
-        </Row>
+        
+<Col>
+<Image src="https://lh3.googleusercontent.com/X-f2CVNbCEdmKACo1LzMCjfs385hFsgVytO7EnP7WpSuZBm5NUAb0JzqPTMgSKX66Ak_Zr1txlsrERY5hqPoekwqUgoaZoUTnDlzQ8NFc0U3ASTCXjICbwUBd9ToghjVZgGDlZqlRA=w2400" alt="Woman in glasses facing camera and smiling" id="my-portrait" />
 
+</Col>
+</Row>
       </Container>
     </section>
   );

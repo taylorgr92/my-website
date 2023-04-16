@@ -42,3 +42,11 @@ background-color: var(--navy-blue);
   color:black;
   
 }
+
+#my-portrait{
+  width: 100%;
+  max-width: 375px;
+  height: auto;
+  
+  
+}
