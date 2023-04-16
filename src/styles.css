@@ -6,7 +6,7 @@
 
 :root {
   /* navbar */
-  --navy-blue: #005a70;
+  --navy-blue: #9ad0dd;
   /* section */
   --peach: #fff8f0;
   /* section */
@@ -17,38 +17,44 @@
   --light-peach: #f7ebde;
   /* section */
   --light-sage: #d4dfdb;
+  --noto-sans:'Noto Sans', sans-serif;
 }
 
 #main-section {
   background-color: var(--peach);
-  max-height:100%;
-  margin-right:auto;
-  margin-left:auto;
+  max-height: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-#nav-menu{
-background-color: var(--navy-blue);
-
-
+#main-container {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+#nav-menu {
+  padding-top:2rem;
+  background-color:  var(--peach);
+  font-size: 1.3em;
 }
 
-#nav-brand{
-  color: #ffffffe7;
+#nav-brand {
+  
 }
 
-#title-card{
+#title-card {
   background-color: transparent;
-  border:none;
-  color:black;
-  
+  border: none;
+  color: rgb(46, 46, 46);
+  font-family: var(--noto-sans);
+  font-size:1.75rem;
+  margin:.75em;
+  letter-spacing:0.02125em
 }
 
-#my-portrait{
-  width: 100%;
-  max-width: 375px;
-  height: auto;
-  box-shadow: 7px 8px 27px .25px rgba(0,0,0,0.58);
+#my-portrait {
+  margin:.75em;
+  height: 350px;
+  width: 350px;
+  box-shadow: 7px 8px 27px 0.25px rgba(0, 0, 0, 0.58);
   border-radius: 6px 6px 6px 6px;
-  
-
 }
