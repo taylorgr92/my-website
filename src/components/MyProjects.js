@@ -1,4 +1,5 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 const MyProjects = () => {
   return (
@@ -6,7 +7,7 @@ const MyProjects = () => {
       <Container id="projects-container">
         <Row>
           {/* Project #1 */}
-          <Col></Col>
+          <Col>Hello</Col>
           {/* Project #2 */}
           <Col></Col>
           {/* Project #3 */}

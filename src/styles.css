@@ -17,10 +17,13 @@
   --light-peach: #f7ebde;
   /* section */
   --light-sage: #d4dfdb;
-  --font-black:rgb(46, 46, 46);
+
   /* fonts */
-  --noto-sans:'Noto Sans', sans-serif;
-  --roboto:'Roboto', sans-serif;
+  --font-black: rgb(46, 46, 46);
+
+  --light-black: rgba(44, 44, 44, 0.905);
+  --noto-sans: "Noto Sans", sans-serif;
+  --roboto: "Roboto", sans-serif;
 }
 
 #main-section {
@@ -33,25 +36,30 @@
 #main-container {
   padding-top: 5em;
   padding-bottom: 5em;
-
 }
 #nav-menu {
-  padding-top:1rem;
-  background-color:  var(--light-sage);
+  padding-top: 1rem;
+  background-color: var(--light-sage);
   font-size: 1.3em;
   font-family: var(--roboto);
   font-weight: 200;
 }
+a.nav-link {
+  color: var(--light-black);
+}
 
+a.nav-link:hover {
+  color: var(--peach);
+}
 
 #title-card {
   background-color: transparent;
   border: none;
   color: var(--font-black);
   font-family: var(--noto-sans);
-  font-size:2rem;
-  margin:.75em;
-  letter-spacing:0.02125em
+  font-size: 2rem;
+  margin: 0.75em;
+  letter-spacing: 0.02125em;
 }
 
 #my-portrait {
@@ -59,4 +67,24 @@
   height: auto;
   box-shadow: 7px 8px 27px 0.25px rgba(0, 0, 0, 0.58);
   border-radius: 6px 6px 6px 6px;
+}
+
+#projects-section {
+  background-color:var(--sage);
+}
+
+#projects-container{
+  font-size:4em;
+}
+
+#contact-btn{
+  background-color:var(--teal);
+  color: white;
+  font-size: .75em;
+  font-weight:bold;
+  letter-spacing: .1em;
+}
+
+#contact-btn:hover{
+background-color:#24afc5
 }
