@@ -20,7 +20,7 @@ const MainSect = () => {
 
           <Col>
             <Image
-              src="https://lh3.googleusercontent.com/X-f2CVNbCEdmKACo1LzMCjfs385hFsgVytO7EnP7WpSuZBm5NUAb0JzqPTMgSKX66Ak_Zr1txlsrERY5hqPoekwqUgoaZoUTnDlzQ8NFc0U3ASTCXjICbwUBd9ToghjVZgGDlZqlRA=w2400"
+              src="https://lh3.googleusercontent.com/pw/AJFCJaV5xGzVd5yQoNjebA1gPqsyJVc9Cky0Y5ERjgS6lFqZpnRtknjSdOF4BcxK0Wpb73Cf2arzsuRUjZXq_IXN5YbFihPysNEik-m4el7XoWVZ3gYRxgw=w2400"
               alt="Woman in glasses facing camera and smiling"
               id="my-portrait"
             />

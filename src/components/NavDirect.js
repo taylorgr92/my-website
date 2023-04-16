@@ -1,5 +1,5 @@
 import React from "react";
-import {Navbar, Container, Nav} from 'react-bootstrap';
+import {Navbar, Container, Nav, Button} from 'react-bootstrap';
 
 const NavDirect = () => {
   return(
@@ -11,7 +11,7 @@ const NavDirect = () => {
           <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">About</Nav.Link>
             <Nav.Link href="#link">My Work</Nav.Link>
-            <Nav.Link href="#link">Contact Me</Nav.Link>
+            <Nav.Link href="#link"><Button variant="info">Contact Me</Button></Nav.Link>
         </Container>
       </Navbar>
      

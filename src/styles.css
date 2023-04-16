@@ -17,7 +17,10 @@
   --light-peach: #f7ebde;
   /* section */
   --light-sage: #d4dfdb;
+  --font-black:rgb(46, 46, 46);
+  /* fonts */
   --noto-sans:'Noto Sans', sans-serif;
+  --roboto:'Roboto', sans-serif;
 }
 
 #main-section {
@@ -30,21 +33,21 @@
 #main-container {
   padding-top: 5em;
   padding-bottom: 5em;
+
 }
 #nav-menu {
-  padding-top:2rem;
-  background-color:  var(--peach);
+  padding-top:1rem;
+  background-color:  var(--light-sage);
   font-size: 1.3em;
+  font-family: var(--roboto);
+  font-weight: 200;
 }
 
-#nav-brand {
-  
-}
 
 #title-card {
   background-color: transparent;
   border: none;
-  color: rgb(46, 46, 46);
+  color: var(--font-black);
   font-family: var(--noto-sans);
   font-size:1.75rem;
   margin:.75em;
@@ -52,9 +55,8 @@
 }
 
 #my-portrait {
-  margin:.75em;
-  height: 350px;
-  width: 350px;
+  max-width: 100%;
+  height: auto;
   box-shadow: 7px 8px 27px 0.25px rgba(0, 0, 0, 0.58);
   border-radius: 6px 6px 6px 6px;
 }
