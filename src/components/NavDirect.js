@@ -14,7 +14,7 @@ const NavDirect = () => {
           <Nav.Link href="#link">About</Nav.Link>
           <Nav.Link href="#link">My Work</Nav.Link>
           <Nav.Link href="#link">
-            <Button variant="info" id="contact-btnpn">CONTACT ME</Button>
+            <Button id="contact-btn">CONTACT ME</Button>
           </Nav.Link>
         </Container>
       </Navbar>
