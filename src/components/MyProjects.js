@@ -16,10 +16,12 @@ const MyProjects = () => {
               }}
               class="project-card"
             >
-              <Card.Img
-                variant="top"
-                src="https://lh3.googleusercontent.com/H18ke-ZfqzKWQCDKfVL33q1uUWz3Bbgss5sSfZBrGBApiJzduagttB3FSB-sYCP1Z2E0NYGs9JMghJnKmYK9fLsAVJXQlFNYLte3elW3CqEnUNW6ntJW3q2nJCzFLvb1SwhhesPJ9Q=w2400"
-              ></Card.Img>
+              <a href="/">
+                <Card.Img
+                  variant="top"
+                  src="https://lh3.googleusercontent.com/H18ke-ZfqzKWQCDKfVL33q1uUWz3Bbgss5sSfZBrGBApiJzduagttB3FSB-sYCP1Z2E0NYGs9JMghJnKmYK9fLsAVJXQlFNYLte3elW3CqEnUNW6ntJW3q2nJCzFLvb1SwhhesPJ9Q=w2400"
+                ></Card.Img>
+              </a>
               <Card.Body>
                 <Card.Text class="project-text">
                   Some quick example text to build on the card title and make up
@@ -38,10 +40,12 @@ const MyProjects = () => {
               }}
               class="project-card"
             >
-              <Card.Img
-                variant="top"
-                src="https://lh3.googleusercontent.com/H18ke-ZfqzKWQCDKfVL33q1uUWz3Bbgss5sSfZBrGBApiJzduagttB3FSB-sYCP1Z2E0NYGs9JMghJnKmYK9fLsAVJXQlFNYLte3elW3CqEnUNW6ntJW3q2nJCzFLvb1SwhhesPJ9Q=w2400"
-              ></Card.Img>
+              <a href="/">
+                <Card.Img
+                  variant="top"
+                  src="https://lh3.googleusercontent.com/H18ke-ZfqzKWQCDKfVL33q1uUWz3Bbgss5sSfZBrGBApiJzduagttB3FSB-sYCP1Z2E0NYGs9JMghJnKmYK9fLsAVJXQlFNYLte3elW3CqEnUNW6ntJW3q2nJCzFLvb1SwhhesPJ9Q=w2400"
+                ></Card.Img>
+              </a>
               <Card.Body>
                 <Card.Text class="project-text">
                   Some quick example text to build on the card title and make up
@@ -61,11 +65,12 @@ const MyProjects = () => {
               }}
               class="project-card"
             >
-              {" "}
-              <Card.Img
-                variant="top"
-                src="https://lh3.googleusercontent.com/H18ke-ZfqzKWQCDKfVL33q1uUWz3Bbgss5sSfZBrGBApiJzduagttB3FSB-sYCP1Z2E0NYGs9JMghJnKmYK9fLsAVJXQlFNYLte3elW3CqEnUNW6ntJW3q2nJCzFLvb1SwhhesPJ9Q=w2400"
-              ></Card.Img>
+              <a href="/">
+                <Card.Img
+                  variant="top"
+                  src="https://lh3.googleusercontent.com/H18ke-ZfqzKWQCDKfVL33q1uUWz3Bbgss5sSfZBrGBApiJzduagttB3FSB-sYCP1Z2E0NYGs9JMghJnKmYK9fLsAVJXQlFNYLte3elW3CqEnUNW6ntJW3q2nJCzFLvb1SwhhesPJ9Q=w2400"
+                ></Card.Img>
+              </a>
               <Card.Body>
                 <Card.Text class="project-text">
                   Some quick example text to build on the card title and make up
