@@ -11,10 +11,10 @@ const NavDirect = () => {
             TF
           </Navbar.Brand>
           <Nav className="ml-auto" />
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">About</Nav.Link>
-          <Nav.Link href="#link">My Work</Nav.Link>
-          <Nav.Link href="#link">
+          <a href="anchor-name">Home</a>
+          <a href="project-section">My Work</a>
+          <a id="anchor-name">About</a>
+          <Nav.Link href="link">
             <Button id="contact-btn">CONTACT ME</Button>
           </Nav.Link>
         </Container>

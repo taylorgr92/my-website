@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion/dist/framer-motion";
 import Card from "react-bootstrap/Card";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import MyProjects from "./MyProjects.js";
+
 
 const animation = {
   initial: { opacity: 0, y: 20 },
@@ -41,8 +41,6 @@ const MainSect = () => {
         </section>
       </motion.div>
 
-        <MyProjects />
-     
     </>
   );
 };

@@ -17,7 +17,7 @@ const MyProjects = () => {
     initial="initial"
     animate="animate"
   >
-    <section id="projects-section">
+    <section id="#projects-section">
       <Container id="project-header">
         A few examples of my work
       </Container>
