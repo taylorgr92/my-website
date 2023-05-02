@@ -4,6 +4,9 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 const MyProjects = () => {
   return (
     <section id="projects-section">
+      <Container id="project-header">
+        A few examples of my work
+      </Container>
       <Container id="projects-container">
         <Row>
           {/* Project #1 */}
@@ -14,16 +17,19 @@ const MyProjects = () => {
                 backgroundColor: "transparent",
                 border: "none",
               }}
-              class="project-card"
+              className="project-card"
             >
               <a href="/">
                 <Card.Img
                   variant="top"
-                  src="https://lh3.googleusercontent.com/H18ke-ZfqzKWQCDKfVL33q1uUWz3Bbgss5sSfZBrGBApiJzduagttB3FSB-sYCP1Z2E0NYGs9JMghJnKmYK9fLsAVJXQlFNYLte3elW3CqEnUNW6ntJW3q2nJCzFLvb1SwhhesPJ9Q=w2400"
+                  src="https://lh3.googleusercontent.com/H8g-aaVMvh3DIkLDhoVvwV_B8SrJCgjyxew38DrUsr30vlU9Km8I9OnDhXXpJ3xMr69t66S9DXUAVdpG07WlboHOokSQDACfiBDMo3ZOLVV2UWJS5CnHJlpY631na7D0of7L1y4aZQ=w2400"
                 ></Card.Img>
               </a>
               <Card.Body>
-                <Card.Text class="project-text">
+                <Card.Title>
+                  My Favorite Movie GIF
+                </Card.Title>
+                <Card.Text className="project-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
@@ -38,7 +44,7 @@ const MyProjects = () => {
                 backgroundColor: "transparent",
                 border: "none",
               }}
-              class="project-card"
+              className="project-card"
             >
               <a href="/">
                 <Card.Img
@@ -47,7 +53,8 @@ const MyProjects = () => {
                 ></Card.Img>
               </a>
               <Card.Body>
-                <Card.Text class="project-text">
+                <Card.Title >Simpsons Quote Generator</Card.Title>
+                <Card.Text className="project-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>
@@ -63,7 +70,7 @@ const MyProjects = () => {
                 backgroundColor: "transparent",
                 border: "none",
               }}
-              class="project-card"
+              className="project-card"
             >
               <a href="/">
                 <Card.Img
@@ -72,7 +79,7 @@ const MyProjects = () => {
                 ></Card.Img>
               </a>
               <Card.Body>
-                <Card.Text class="project-text">
+                <Card.Text className="project-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </Card.Text>

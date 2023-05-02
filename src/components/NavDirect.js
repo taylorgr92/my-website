@@ -3,6 +3,7 @@ import { Navbar, Container, Nav, Button } from "react-bootstrap";
 
 const NavDirect = () => {
   return (
+    
     <div>
       <Navbar id="nav-menu" sticky="top">
         <Container>

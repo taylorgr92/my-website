@@ -7,12 +7,15 @@ import './styles.css'
 const App = () =>{
   
   return (
+
     <div>
    <NavDirect/>
+   
       <Routes>
         <Route path="/" element={ <MainSect/> } />
         <Route path="/home" element={ <MainSect/> } />
       </Routes>
+     
     </div>
   );
 }

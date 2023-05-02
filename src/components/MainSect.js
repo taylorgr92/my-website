@@ -1,11 +1,18 @@
 import React from "react";
+import {motion} from 'framer-motion/dist/framer-motion'
 import Card from "react-bootstrap/Card";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import MyProjects from "./MyProjects.js";
 
+const animation = {
+  initial: { opacity: 0, y: 20 },
+  animate: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeIn' } },
+};
+
 const MainSect = () => {
   return (
     <>
+     <motion.div variants={animation} initial="initial" animate="animate">
       <section id="main-section">
         <Container id="main-container">
           <Row>
@@ -17,7 +24,7 @@ const MainSect = () => {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
                   laboris nisi ut aliquip ex ea commodo consequat.
                 </Card.Text>
-              </Card>
+              </Card>  
             </Col>
 
             <Col>
@@ -31,6 +38,7 @@ const MainSect = () => {
         </Container>
       </section>
       <MyProjects />
+      </motion.div>
     </>
   );
 };
