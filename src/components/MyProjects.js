@@ -1,8 +1,22 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import { motion } from "framer-motion/dist/framer-motion";
+
+
+const animation = {
+  initial: { opacity: 0, y: 35 },
+  animate: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeIn" } },
+  
+};
 
 const MyProjects = () => {
   return (
+    
+    <motion.div
+    variants={animation}
+    initial="initial"
+    animate="animate"
+  >
     <section id="projects-section">
       <Container id="project-header">
         A few examples of my work
@@ -89,6 +103,7 @@ const MyProjects = () => {
         </Row>
       </Container>
     </section>
+    </motion.div>
   );
 };
 
